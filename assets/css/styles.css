@@ -1,0 +1,1034 @@
+/* Generales */
+
+:root {
+  --color-primario: #d28d66;
+}
+
+:root {
+  --color-secundario: #ecddca; 
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #333333;
+}
+
+h4{
+  font-family: 'Libre Baskerville', serif;
+  letter-spacing: 10px;
+  color: #333333;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+
+.btn{
+  color: white;
+  background-color: var(--color-primario);
+  border-radius: 0px;
+  padding: 10px 20px;
+  border: 1px solid var(--color-primario);
+}
+
+.btn:hover{
+  background-color:var(--color-secundario);
+  color: white;
+  border: 1px solid var(--color-secundario);
+}
+
+.btn-alt{
+  color: black;
+  background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px 20px;
+  border: 1px solid white;
+}
+
+.btn-alt:hover{
+  color: white;
+  background-color: var(--color-primario);
+  border: 1px solid var(--color-primario);
+}
+
+.btn:focus{
+  box-shadow:none;
+}
+
+
+.fancybox-bg{
+  background-color: var(--color-primario) !important;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+/* Animacion fade in */
+.fade-in{
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
+}
+
+.fade-in-portada{
+  animation: fadeIn ease 8s;
+  -webkit-animation: fadeIn ease 8s;
+  -moz-animation: fadeIn ease 8s;
+  -o-animation: fadeIn ease 8s;
+  -ms-animation: fadeIn ease 8s;
+}
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+
+/* Animacion fade in up */
+.fadeInUp {
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+
+.animated {
+  opacity: 0;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both
+}
+
+@keyframes fadeInUp{
+  0% {
+    opacity:0;
+    transform: translateY(120px);
+  }
+  100% {
+    opacity:1;
+    transform: translateY(0px);
+  }
+}
+
+@-moz-keyframes fadeInUp {
+  0% {
+    opacity:0;
+    transform: translateY(120px);
+  }
+  100% {
+    opacity:1;
+    transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity:0;
+    transform: translateY(120px);
+  }
+  100% {
+    opacity:1;
+    transform: translateY(0px);
+  }
+}
+
+@-o-keyframes fadeInUp {
+  0% {
+    opacity:0;
+    transform: translateY(120px);
+  }
+  100% {
+    opacity:1;
+    transform: translateY(0px);
+  }
+}
+
+@-ms-keyframes fadeInUp {
+  0% {
+    opacity:0;
+    transform: translateY(120px);
+  }
+  100% {
+    opacity:1;
+    transform: translateY(0px);
+  }
+}
+
+
+/* Animacion fade in Down */
+.fadeInDown {
+  animation-name: fadeInDown;
+  -webkit-animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown{
+  0% {
+    opacity:0;
+    transform: translateY(-120px);
+  }
+  100% {
+    opacity:1;
+    transform: translateY(0px);
+  }
+}
+
+@-moz-keyframes fadeInDown {
+  0% {
+    opacity:0;
+    transform: translateY(-120px);
+  }
+  100% {
+    opacity:1;
+    transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity:0;
+    transform: translateY(-120px);
+  }
+  100% {
+    opacity:1;
+    transform: translateY(0px);
+  }
+}
+
+@-o-keyframes fadeInDown {
+  0% {
+    opacity:0;
+    transform: translateY(-120px);
+  }
+  100% {
+    opacity:1;
+    transform: translateY(0px);
+  }
+}
+
+@-ms-keyframes fadeInDown {
+  0% {
+    opacity:0;
+    transform: translateY(-120px);
+  }
+  100% {
+    opacity:1;
+    transform: translateY(0px);
+  }
+}
+
+
+/* Animacion fade in Down */
+.fadeInLeft {
+  animation-name: fadeInLeft;
+  -webkit-animation-name: fadeInLeft;
+}
+
+
+@keyframes fadeInLeft{
+  0% {
+    opacity:0;
+    transform: translateX(250px);
+  }
+  100% {
+    opacity:1;
+    transform: translateX(0px);
+  }
+}
+
+@-moz-keyframes fadeInLeft {
+  0% {
+    opacity:0;
+    transform: translateX(250px);
+  }
+  100% {
+    opacity:1;
+    transform: translateX(0px);
+  }
+}
+
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity:0;
+    transform: translateX(250px);
+  }
+  100% {
+    opacity:1;
+    transform: translateX(0px);
+  }
+}
+
+@-o-keyframes fadeInLeft {
+  0% {
+    opacity:0;
+    transform: translateX(250px);
+  }
+  100% {
+    opacity:1;
+    transform: translateX(0px);
+  }
+}
+
+@-ms-keyframes fadeInLeft {
+  0% {
+    opacity:0;
+    transform: translateX(250px);
+  }
+  100% {
+    opacity:1;
+    transform: translateX(0px);
+  }
+}
+
+
+/* Animacion fade in Down */
+.fadeInRight {
+  animation-name: fadeInRight;
+  -webkit-animation-name: fadeInRight;
+}
+
+
+
+@keyframes fadeInRight{
+  0% {
+    opacity:0;
+    transform: translateX(-250px);
+  }
+  100% {
+    opacity:1;
+    transform: translateX(0px);
+  }
+}
+
+@-moz-keyframes fadeInRight {
+  0% {
+    opacity:0;
+    transform: translateX(-250px);
+  }
+  100% {
+    opacity:1;
+    transform: translateX(0px);
+  }
+}
+
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity:0;
+    transform: translateX(-250px);
+  }
+  100% {
+    opacity:1;
+    transform: translateX(0px);
+  }
+}
+
+@-o-keyframes fadeInRight {
+  0% {
+    opacity:0;
+    transform: translateX(-250px);
+  }
+  100% {
+    opacity:1;
+    transform: translateX(0px);
+  }
+}
+
+@-ms-keyframes fadeInRight {
+  0% {
+    opacity:0;
+    transform: translateX(-250px);
+  }
+  100% {
+    opacity:1;
+    transform: translateX(0px);
+  }
+}
+
+
+/* Flecha para scroll de portada */
+.scroll-down {
+  cursor: pointer;
+	position: absolute;
+	bottom: 70px;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	z-index: 100;
+	text-decoration: none;
+	text-shadow: 0;
+  width: 30px;
+  height: 30px;
+  border-bottom: 4px solid #000;
+  border-right: 4px solid #000;
+  z-index: 9;
+  left: calc(50% - 15px);
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+	-webkit-animation: fade_move_down 2s ease-in-out infinite;
+	-moz-animation:    fade_move_down 2s ease-in-out infinite;
+	animation:         fade_move_down 2s ease-in-out infinite;
+}
+
+
+/*animated scroll arrow animation*/
+@-webkit-keyframes fade_move_down {
+  0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@-moz-keyframes fade_move_down {
+  0%   { -moz-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@keyframes fade_move_down {
+  0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+
+
+
+/* ---------- */
+
+
+/* Portada */
+section.portada{
+  height: 100vh;
+}
+
+/* ---------- */
+
+
+
+/* Frase */
+
+
+section.frase img.icon{
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+section.frase{
+  text-align: center;
+  background-color: var(--color-secundario);
+  padding:50px 0px 70px 0px;
+}
+
+section.frase p{
+  margin: 0;
+}
+
+section.frase h4{
+  margin: 20px;
+}
+
+
+/* ---------- */
+
+
+/* Cuenta Regresiva */
+
+section.cuenta-regresiva{
+  text-align: center;
+  padding: 40px 0px 0px 0px;
+  height: auto;
+  font-size: 18px;
+}
+
+section.cuenta-regresiva .reloj{
+  width: 65%;
+  margin: 0 auto;
+}
+
+/* ---------- */
+
+
+/* Nuestra Boda */
+
+section.nuestraboda{
+  text-align: center;
+  background-color:white;
+}
+
+
+section.nuestraboda h4{
+  margin: 20px;
+}
+
+
+section.nuestraboda  img.icon{
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+/* Cuenta Regresiva */
+
+
+
+/* ---------- */
+
+/* Ceremonia y Fiesta */
+
+section.ceremonia-fiesta{
+  padding: 10px 0 100px;
+}
+
+section.ceremonia-fiesta .columna{
+  text-align: center;
+  padding: 0 30px;
+}
+
+
+section.ceremonia-fiesta .columna h2{
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: var(--color-primario);
+}
+
+section.ceremonia-fiesta .columna p{
+  margin-bottom: 25px;
+}
+
+section.ceremonia-fiesta .columna img.icon{
+  width: 150px;
+}
+
+section.ceremonia-fiesta .columna img.anillos{
+  width: 200px;
+}
+
+
+/* ---------- */
+
+
+/* CONFIRMAR ASISTENCIA */
+
+section.confirmar-asistencia{
+  text-align: center;
+  padding: 70px 0 50px;
+  background-color:var(--color-secundario);
+}
+
+section.confirmar-asistencia h4 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+
+
+section.confirmar-asistencia h5 {
+    font-weight: 200;
+    font-size: 30px;
+   
+    margin: 25px;
+}
+
+section.confirmar-asistencia p{
+  margin-bottom: 20px;
+}
+section.confirmar-asistencia p a{
+  margin: 10px;
+}
+section.confirmar-asistencia img.iconLink{
+  width: 1.7rem;
+}
+.div_calendario{
+  z-index: 2;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.div_drescode{
+  z-index: 1;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+section.confirmar-asistencia  img.icon{
+  width: 130px;
+   text-align: center;
+}
+
+/* ---------- */
+
+
+/* Galeria /Historia */
+
+section.galeria{
+  padding: 20px 20px 70px 20px;
+  text-align: center;
+}
+
+section.galeria .item-galeria{
+  padding: 0 3px;
+  margin-bottom: 5px;
+}
+
+section.galeria h4 {
+  text-align: center; 
+  font-size: 20px;
+}
+
+section.galeria p {
+   padding-bottom: 30px;
+}
+
+section.galeria .item-galeria a img{
+  transition: all 0.3s ease-out;
+  border-radius: 10px;
+}
+
+
+section.galeria .item-galeria a:hover img{
+  transform: scale(1.1);
+  position: relative;
+  z-index: 999;
+}
+
+
+/* ---------- */
+
+/* Instagram */
+
+section.instagram{
+  text-align: center;
+  padding: 60px 0px 80px 0px;
+  background-color:white;
+  color:black;
+}
+
+section.instagram p{
+  padding-top:20px;
+}
+
+section.instagram span.hashtag{
+  font-size: 25px;
+ 
+  letter-spacing: 3px;
+  text-transform: none;
+}
+
+section.instagram p a{
+  color: var(--color-primario);
+}
+
+section.instagram  img.icon{
+  width: 150px;
+}
+
+
+
+/* CBU */
+
+section.cbu{
+  text-align: center;
+  padding: 80px 0;
+  background-color: var(--color-secundario);
+}
+
+section.cbu img.icon{
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+section.cbu .cbu-inner {
+  background: #fff;
+  width: 70%;
+  padding: 40px;
+}
+
+section.cbu p{
+  margin-bottom: 20px;
+}
+
+#hidden-cbu{
+  padding: 25px;
+  border-radius: 10px;
+}
+
+
+#hidden-cbu span.title{
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  color: var(--color-primario)
+}
+
+
+#hidden-cbu ul{
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+#hidden-cbu ul li a{
+  color:var(--color-primario);
+  text-decoration: underline;
+}
+
+/* ---------- */
+
+ 
+
+/* CANCIONES */
+
+section.canciones{
+  text-align: center;
+  padding: 100px 0 100px;
+}
+
+section.canciones .canciones-inner{
+  background: #fff;
+  width: 80%;
+  padding: 40px;
+}
+
+section.canciones h4 {
+  text-align: center; 
+  margin: 20px 0px 20px 0px;
+}
+
+section.canciones p{
+  margin-bottom: 20px;
+}
+
+
+/* ---------- */
+
+/* ALOJAMIENTOS */
+
+section.alojamientos{
+  text-align: center;
+  padding: 80px 0 80px;
+  background-color:var(--color-primario);
+}
+
+section.alojamientos h4{
+  color: white;
+  margin-bottom: 25px;
+}
+
+section.alojamientos p{
+  color: white;
+}
+
+#hidden-alojamientos{
+  padding: 25px;
+  border-radius: 10px;
+}
+
+
+#hidden-alojamientos span.title{
+ 
+  color: var(--color-primario);
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+}
+
+
+#hidden-alojamientos ul{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#hidden-alojamientos ul li{
+
+  text-align: center;
+  margin-bottom: 14px;
+  font-size: 17px;
+}
+
+
+
+
+
+
+/* ---------- */
+
+
+
+
+
+
+/* PROTOCOLO */
+
+section.protocolo{
+  text-align: center;
+  padding: 80px 10px 80px 10px;
+  background-color:white;
+}
+
+section.protocolo h4 {
+    margin: 25px;
+}
+
+section.protocolo img.icon{
+  width: 150px;
+}
+
+
+/* ---------- */
+
+
+/* GRACIAS */
+
+section.gracias{
+  text-align: center;
+  padding: 70px 0;
+  background-color: var(--color-secundario);
+}
+
+section.gracias p{
+  text-align: center;
+}
+
+
+/* ---------- */
+
+
+/* FOOTER */
+
+section.menu-footer{
+  background: #e6e6e6;
+  padding: 30px 0;
+}
+
+section.menu-footer ul li{
+  margin: 0 20px;
+}
+
+section.menu-footer ul a{
+  text-decoration: underline;
+  color: #999;
+  font-size: 13px;
+}
+
+section.menu-footer ul a:hover{
+  color: #35aa7f
+}
+
+
+
+section.footer{
+  text-align: center;
+  padding: 20px 0;
+  background-color: white;
+}
+
+section.footer p{
+  text-align: center;
+  font-size: 12px;
+}
+
+section.footer a{
+  color: #666;
+}
+
+
+/* ---------- */
+
+/* CONTACTO */
+
+section.contacto{
+  padding: 100px 0;
+}
+
+section.contacto h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+section.contacto p{
+  font-weight: 300;
+}
+
+section.contacto a{
+  color: #35aa7f;
+}
+
+section.contacto a:hover{
+  color: black;
+}
+
+section.contacto ul li{
+  margin-bottom: 5px;
+}
+
+section.contacto ul li i{
+  font-size: 18px;
+  margin-right: 3px;
+}
+
+
+/* ---------- */
+
+
+/* Audio */
+.botonAudio-container {
+  text-align: center;
+}
+
+.botonAudio {
+  width: 6rem;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  right: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.pulse {
+  animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+      transform: scale(1);
+  }
+
+  50% {
+      transform: scale(1.1);
+  }
+
+  100% {
+      transform: scale(1);
+  }
+}
+.vertical_shake {
+  animation: vertical-shaking 0.7s infinite;
+}
+
+
+@keyframes vertical-shaking {
+  0% { transform: translateY(0) }
+  25% { transform: translateY(4px) }
+  50% { transform: translateY(-4px) }
+  75% { transform: translateY(4px) }
+  100% { transform: translateY(0) }
+}
+
+
+/* ---------- */
+
+/* Medias queries */
+
+@media (max-width: 760px) {
+
+
+  .logo-portada img{
+    max-width: 85%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+  }
+
+  .logo-portada{
+    text-align: center;
+  }
+
+  section.ceremonia-fiesta .row .columna:nth-child(2){
+    margin-top: 50px;
+  }
+
+  section.ceremonia-fiesta .row .columna.no-margin-top{
+    margin-top: 0;
+  }
+
+  section.menu-footer ul li{
+    margin-top: 10px;
+  }
+
+  section.cuenta-regresiva .reloj{
+    width: 100%;
+  }
+
+  section.confirmar-asistencia .asistencia-inner{
+    width: 100%;
+  }
+
+  section.cbu .cbu-inner{
+    width: 100%;
+  }
+
+  .contacto .col-md-6{
+    margin-bottom: 20px;
+  }
+
+
+
+
+}

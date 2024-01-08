@@ -1,0 +1,524 @@
+<!-- Configuracion -->
+
+
+
+<!doctype html>
+<html lang="es">
+
+<head>
+
+    <!-- Head -->
+    <!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="invitaciones digitales para eventos">
+<meta name="keywords" content="invitaciones, digitales, tarjetas, boda, invitación, interactivas, casamiento, save the date, agenda la fecha, ideas invitación, tarjetas de 15, tarjetas eventos, wedding, matrimonio, ideas tarjetas, rsvp, modelos de invitacion, página de boda, página web de casamiento">
+
+
+<!-- Listado de css con version dinamica segun modificacion de archivo -->
+<link rel='stylesheet' href='assets/css/bootstrap.min.css?v=1702488259'/><link rel='stylesheet' href='assets/css/jquery.classycountdown.css?v=1702488260'/><link rel='stylesheet' href='assets/css/jquery.fancybox.min.css?v=1702488260'/><link rel='stylesheet' href='assets/css/styles.css?v=1702488261'/>
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+<!-- Title -->
+<title>
+  Invitación Vintage - Agenda la Fecha</title>
+
+</head>
+
+
+
+<body>
+
+    <!-- Audio -->
+    <section class="audio">
+    <div class="container">
+        <div class="row">
+            <div class="botonAudio-container">
+                <audio id="audioPrueba" loop>
+                    <source src="assets/musica.mp3" type="audio/mp3">
+                    ¡Ups! Tu navegador no soporta este archivo de audio.
+                </audio>
+                <div class='animation'>
+                    <img id="btnPlay" src="assets/img/icono-musica_play.svg" alt="boton play" onclick="playAudio()"
+                        class="botonAudio vertical_shake">
+
+                    <img id="btnPausa" src="assets/img/icono-musica_pausa.svg" class="botonAudio hidden"
+                        onclick="pauseAudio()" alt="boton pausa">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Portada -->
+    <!-- Portada -->
+<section class="portada parallax-portada d-flex justify-content-center align-items-center">
+
+  <!-- Logo central -->
+  <div class="logo-portada fade-in-portada">
+    <img class="" src="assets/img/logo-portada.png" alt="">
+    <div class="scroll-down"></div>
+  </div>
+
+</section>
+
+    <!-- Frase -->
+    <section class="frase" id="frase">
+
+  <div class="container">
+
+    <img src="assets/img/icono-frase.svg" alt="" class="icon corazon">
+    <div class="div_frase animated" >
+      <h4>LLEGÓ EL GRAN DÍA</h4>
+
+      <p>"Andábamos sin buscarnos, pero sabiendo que andábamos para encontrarnos."</p>
+      </br>
+      <p><i>Julio Cortázar</i></p>
+    </div>
+
+  </div>
+
+  </div>
+
+</section>
+    <!-- Cuenta Regresiva -->
+    <section class="cuenta-regresiva">
+
+  <div class="container">
+
+
+    <!-- Contenedor de cuenta regresiva -->
+    <div class="reloj">
+      <div class="countdown"></div>
+    </div>
+
+  </div>
+
+
+</section>
+
+    <!-- Nuestra Boda -->
+    <section class="nuestraboda">
+
+  <div class="container div_nuestraBoda">
+    <img src="assets/img/icono-nuestraboda.svg" alt="" class="icon">
+
+        <h4>NUESTRA BODA</h4>
+
+    </div>
+
+  </div>
+
+</section>
+    <!-- Ceremonia y Fiesta -->
+    <section class="ceremonia-fiesta">
+ 
+ 
+  <div class="container">
+
+    <div class="row">
+
+        
+
+          <!-- Ceremonia -->
+          <div class="col-md-6 columna ceremonia animated">
+            <h2>Ceremonia</h2>
+            <p>
+              15 de Octubre de 2024</br>
+18:30 horas</br>
+Iglesia del Carmen,</br>
+Villa Allende, Córdoba.
+            </p>
+            <a target="_blank" href="https://www.google.com/maps/place/Our+Lady+of+Carmen+Parish/@-34.4111811,-58.6890285,15z/data=!4m5!3m4!1s0x0:0x8c4ebd0284108d5c!8m2!3d-34.4111811!4d-58.6890285?sa=X&ved=2ahUKEwiu0_qHpLXkAhWQI7kGHXi1CrgQ_BIwE3oECA8QCA&shorturl=1" class="btn">Cómo llegar</a>
+          </div>
+
+          <!-- Fiesta -->
+          <div class="col-md-6 columna fiesta animated">
+            <h2>Festejo</h2>
+            <p>
+              15 de Octubre de 2024</br>
+20:00 horas</br>
+La Angelina, Estancia Contemporánea</br>
+Unquillo, Córdoba.            </p>
+            <a target="_blank" href="https://www.google.com/maps/place/Astilleros+Milberg/@-34.394427,-58.658754,15z/data=!4m5!3m4!1s0x0:0xb9c4e3b7fd60bb90!8m2!3d-34.394427!4d-58.658754?sa=X&ved=2ahUKEwiG86u6pLXkAhVpIbkGHYTvAXsQ_BIwFXoECAsQCA&shorturl=1" class="btn">Cómo llegar</a>
+          </div>
+
+
+        
+
+      
+    </div>
+  </div>
+</section>
+    <!-- RSVP -->
+    <section class="confirmar-asistencia">
+    <div class="containter">
+        <h4 class="rsvp">RSVP</h4>
+        <div class="div_rsvp animated">
+            <p>Esperamos que puedas acompañarnos. ¡Confirmanos tu asistencia!</p>
+            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe9YQMx7pJ7roFnvzgB353ytHGRUEOI_339DoK6--8r9jtZwg/viewform" class="btn">Confirmar asistencia</a></p>
+        </div>
+        <img src="assets/img/icono-calendar.svg" alt="" class="icon calendario">
+        <div class="div_calendario  animated">
+            <p>¡Agendá la fecha en tu calendario!</p>
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Agendar evento
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a target="_blank" id="LinkCalendarGoogle" class="dropdown-item" href="#"><img
+                            src="assets/img/icons8-calendario-de-google.svg" class="iconLink mr-3"
+                            alt="icono google">Google</a>
+                    <a target="_blank" id="LinkCalendarOutlook" class="dropdown-item" href="#"><img
+                            src="assets/img/icons8-ms-outlook.svg" class="iconLink mr-3" alt="icono google">Outlook</a>
+                    <a target="_blank" id="LinkCalendarMicrosoft365" class="dropdown-item" href="#"><img
+                            src="assets/img/icons8-oficina-365.svg" class="iconLink mr-3" alt="icono google">Microsoft
+                        365</a>
+                    <a target="_blank" id="LinkCalendarApple" class="dropdown-item" href="#"><img
+                            src="assets/img/icons8-mac-os.svg" class="iconLink mr-3" alt="icono google">Apple</a>
+                    <a target="_blank" id="LinkCalendarYahoo" class="dropdown-item" href="#"><img
+                            src="assets/img/icons8-yahoo.svg" class="iconLink mr-3" alt="icono google">Yahoo</a>
+                </div>
+            </div>
+        </div>
+        </br>
+        <img src="assets/img/icono-dresscode.svg" alt="" class="icon dresscode">
+<img class="div_dresscode animated">
+
+        <div class="div_drescode">
+
+            <h4 class="dresscode">Dress Code:</h4>
+
+            <p class="text_drescode animated">
+                Formal elegante.</br>Nuestro casamiento será al aire libre, sugerimos no usar taco y llevar abrigo.            </p>
+
+    </div>
+    </div>
+
+</section>
+
+    <!-- Instagram -->
+    <section class="instagram">
+
+
+  <div class="container">
+    <img src="assets/img/icono-instagram.svg" alt="" class="icon camara">
+    <br>
+    <div class="div_instagram animated">
+      <h4><span class="hashtag">
+          @LuisyMery        </span></h4>
+      <p>
+     ¡Preparate para nuestro casamiento! <br>
+        Ya podés seguirnos en nuestra cuenta</a></span> para ver todas las novedades del casamiento y etiquetarnos en tus fotos y videos.
+      </p>
+
+      <a target="_blank" href="https://www.instagram.com/agendalafecha/" class="btn">Ver en Instagram</a>
+    </div>
+
+  </div>
+
+</section>
+    <!-- Galeria -->
+      <section class="galeria">
+  <div class="container">
+
+    <h4 class="title_nosotros">NOSOTROS</br>♥</h4>
+    <p class="sub_title_nosotros animated">Cada historia de amor es diferente, ¡pero la nuestra es única!</p>
+    <div class="row div_fotos_nosotros ">
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <!-- Impmrimo el bloque con la imagen -->
+          <div class="col-6 col-md-3 item-galeria">
+            <a href="assets/img/galeria/1.jpg" data-fancybox="images" data-caption="">
+              <img class="img-fluid" src="assets/img/galeria/1.jpg" alt="">
+            </a>
+          </div>
+      
+      
+        <!-- Impmrimo el bloque con la imagen -->
+          <div class="col-6 col-md-3 item-galeria">
+            <a href="assets/img/galeria/2.jpg" data-fancybox="images" data-caption="">
+              <img class="img-fluid" src="assets/img/galeria/2.jpg" alt="">
+            </a>
+          </div>
+      
+      
+        <!-- Impmrimo el bloque con la imagen -->
+          <div class="col-6 col-md-3 item-galeria">
+            <a href="assets/img/galeria/3.jpg" data-fancybox="images" data-caption="">
+              <img class="img-fluid" src="assets/img/galeria/3.jpg" alt="">
+            </a>
+          </div>
+      
+      
+        <!-- Impmrimo el bloque con la imagen -->
+          <div class="col-6 col-md-3 item-galeria">
+            <a href="assets/img/galeria/4.jpg" data-fancybox="images" data-caption="">
+              <img class="img-fluid" src="assets/img/galeria/4.jpg" alt="">
+            </a>
+          </div>
+      
+      
+        <!-- Impmrimo el bloque con la imagen -->
+          <div class="col-6 col-md-3 item-galeria">
+            <a href="assets/img/galeria/5.jpg" data-fancybox="images" data-caption="">
+              <img class="img-fluid" src="assets/img/galeria/5.jpg" alt="">
+            </a>
+          </div>
+      
+      
+        <!-- Impmrimo el bloque con la imagen -->
+          <div class="col-6 col-md-3 item-galeria">
+            <a href="assets/img/galeria/6.jpg" data-fancybox="images" data-caption="">
+              <img class="img-fluid" src="assets/img/galeria/6.jpg" alt="">
+            </a>
+          </div>
+      
+      
+        <!-- Impmrimo el bloque con la imagen -->
+          <div class="col-6 col-md-3 item-galeria">
+            <a href="assets/img/galeria/7.jpg" data-fancybox="images" data-caption="">
+              <img class="img-fluid" src="assets/img/galeria/7.jpg" alt="">
+            </a>
+          </div>
+      
+      
+        <!-- Impmrimo el bloque con la imagen -->
+          <div class="col-6 col-md-3 item-galeria">
+            <a href="assets/img/galeria/8.jpg" data-fancybox="images" data-caption="">
+              <img class="img-fluid" src="assets/img/galeria/8.jpg" alt="">
+            </a>
+          </div>
+      
+      
+
+    </div>
+  </div>
+</section>
+    <!-- CBU -->
+    
+   <section class="cbu">
+      <div class="container">
+         <img src="assets/img/icono-regalo.svg" alt="" class="icon globo">
+         <div class="div_cbu animated">
+            <p>¡El mejor regalo es tu presencia!</br>
+               Si deseas realizarnos un regalo...</p>
+            <a data-fancybox data-src="#hidden-cbu" href="javascript:;" data-options='{"touch" : false}'
+               class="btn btn-alt">Ver más</a>
+         </div>
+      </div>
+
+      <!-- Datos Cbu -->
+      <div style="display: none;" id="hidden-cbu">
+
+         
+
+<span class="title">Datos Bancarios</span>
+
+<ul>
+  <li>Nombre del Titular: Nombre Apellido</li>
+  <li>CBU: 12345623561</li>
+  <li>Alias: </li>
+  <li>DNI: 32200552</li>
+  <li>Banco Galicia</li>
+</ul>
+
+<span class="title">Lista de Regalos</span>
+
+<ul>
+  <li><a target="_blank" href="">Falabella Novios</a></li>
+</ul>
+
+      </div>
+
+
+   </section>
+
+
+
+
+    <!-- Canciones -->
+    <section class="canciones parallax-canciones d-flex justify-content-center align-items-center">
+
+  <div class="container d-flex justify-content-center align-items-center div_musica">
+    <div class="canciones-inner">
+      <h4>¡FIESTA!</h4>
+      <p>¿Qué canciones no pueden faltar en la fiesta?</br>
+      ¡Queremos crear una lista inolvidable!</p>
+      <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdx-rgnkGiTmXEdbE9mjW8X-RYHMivJfTrEOiS1js17lv6jQQ/viewform" class="btn">Sugerir canción</a>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+
+    <!-- Info Util -->
+    <section class="alojamientos">
+
+ 
+   <div class="container div_alojamientos">
+    <h4>INFO ÚTIL</h4>
+    <p>Te dejamos sugerencias de alojamientos y traslados para que aproveches ese fin de semana al máximo.</p>
+
+
+      <!-- ALOJAMIENTOS PAGINA EXTRA -->
+
+       <!-- <a target="_blank" href="https://www.agendalafecha.com/boda/nombres/alojamientos" class="btn btn-alt">Ver más</a>
+
+ <!--(borrar esto: <!-- antes de la linea del boton, para poner uno u otro)-->
+
+
+  <!-- ALOJAMIENTOS POP UP -->
+
+    <a data-fancybox data-src="#hidden-alojamientos" href="javascript:;" data-options='{"touch" : false}' class="btn btn-alt">Ver más</a>
+
+    <div style="display: none;" id="hidden-alojamientos">
+
+    
+
+<span class="title">Hoteles</span>
+
+<ul>
+  <li><span style="font-weight: 600;">Nombre Hotel 1</span><br>Contacto / Página Web</li>
+  <li><span style="font-weight: 600;">Nombre Hotel 2</span><br>Contacto / Página Web</li>
+  <li><span style="font-weight: 600;">Nombre Hotel 3</span><br>Contacto / Página Web</li>
+</ul>
+<span class="title">Traslados</span>
+<ul>
+  <li><span style="font-weight: 600;">Título 1</span><br>Contacto</li>
+  <li><span style="font-weight: 600;">Título 2</span><br>Contacto</li>
+  <li><span style="font-weight: 600;">Título 3</span><br>Contacto</li>
+
+</ul>
+
+
+  </div>
+   </div>
+  
+</section>
+    <!-- Gracias -->
+    <section class="gracias">
+
+  <div class="container">
+
+    <p class="text_gracias">♥<br>¡Gracias por acompañarnos en este momento tan importante!</p>
+
+  </div>
+
+</section>
+    <!-- contacto -->
+    <!-- Contactos -->
+<section class="contacto">
+  <div class="container">
+    <div class="row">
+
+      <!-- Col 1 -->
+      <div class="col-md-6">
+
+        <h4>¿Te gustó nuestro demo?</h4>
+        <p>¡Contactanos!Trabajamos desde Argentina al mundo.</p>
+        <ul>
+
+           <li><i class="fab fa-whatsapp"></i> <a target="_blank" href="https://wa.link/afe8yc">¡Envianos un Whatsapp!</a></li>
+
+            
+
+
+
+
+           <li><i class="fas fa-phone-alt"></i> +549 351 2500555 | +549  351 8115010</li>
+          <li><i class="fas fa-envelope"></i> <a href="mailto:agendalafecha@gmail.com">agendalafecha@gmail.com</a> </li>
+        </ul>
+
+
+      </div>
+ 
+      <!-- Col 2 -->
+      <div class="col-md-6">
+ 
+        <h4>Seguinos en Instagram</h4>
+        <p>Para ver ejemplos de nuestro trabajo y enterarte de todas nuestras novedades.</p>
+        <ul>
+           <li><i class="fab fa-instagram"></i> <a target="_blank" href="https://www.instagram.com/agendalafecha/">agendalafecha</a> </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Footer -->
+    <section class="menu-footer">
+
+  <ul class="d-flex flex-column flex-md-row justify-content-center align-items-center">
+
+    <li> <a href="https://agendalafecha.com/">Ir al inicio</a> </li>
+    <li> <a href="https://www.agendalafecha.com/invitaciones/clasica/">Ver Clásica</a> </li>
+    <li> <a href="https://www.agendalafecha.com/invitaciones/premium/">Ver Premium</a> </li>
+    <li> <a href="https://www.agendalafecha.com/invitaciones/black/">Ver Black</a> </li>
+    <li> <a href="https://www.agendalafecha.com/invitaciones/vintage/">Ver Vintage</a> </li>
+    <li> <a href="https://www.agendalafecha.com/invitaciones/romantica/">Ver Romántica</a> </li>
+
+  </ul>
+
+</section>
+<section class="footer">
+
+  <div class="containter">
+    <p>Invitaciones Digitales <a target="_blank" href="https://agendalafecha.com">Agendá la Fecha</a> 2024. Todos los derechos reservados</p>
+  </div>
+
+</section>
+
+
+    <!-- Varaibles para JS desde config -->
+    <script>
+    // Cuenta regresiva
+    var fechaCuentaRegresiva = "09/10/2024 18:30:00";
+    var colorCirculosCuentaRegresiva = "#565656";
+    var colorTextoCuentaRegresiva = "#565656";
+
+    // Datos para Agenda
+    var fechaInicioEvento = "10/15/2024 19:00:00";
+    var fechaFinEvento = "10/15/2024 22:00:00";
+    var tituloEvento = "Boda de Prueba";
+    </script>
+
+
+    <!-- Scripts Generales-->
+    <!-- Listado de js con version dinamica segun modificacion de archivo -->
+<script type='text/javascript' src='assets/js/jquery-3.5.1.slim.min.js?v=1702488273'></script><script type='text/javascript' src='assets/js/jquery.knob.js?v=1702488273'></script><script type='text/javascript' src='assets/js/jquery.throttle.js?v=1702488274'></script><script type='text/javascript' src='assets/js/jquery.classycountdown.js?v=1702488273'></script><script type='text/javascript' src='assets/js/popper.min.js?v=1702488275'></script><script type='text/javascript' src='assets/js/bootstrap.min.js?v=1702488272'></script><script type='text/javascript' src='assets/js/parallax.min.js?v=1702488274'></script><script type='text/javascript' src='assets/js/jquery.fancybox.min.js?v=1702488274'></script><script type='text/javascript' src='assets/js/scripts.js?v=1702488275'></script>
+
+
+
+</body>
+
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpsh'},{'server':'a2plcpnl0946'},{'dcenter':'a2'},{'cp_id':'3446280'},{'cp_cache':''},{'cp_cl':'6'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script></html>
