@@ -1,19 +1,17 @@
 // Confirmar asistencia parallax
 $(".parallax-canciones").parallax({
-  imageSrc: "assets/img/canciones.jpg",
+  imageSrc: "assets/img/canciones.jpeg",
 });
 
 // Portada parallax
 $(".parallax-portada").parallax({
-  imageSrc: "assets/img/portada.jpg",
+  imageSrc: "assets/img/portada.jpeg",
 });
 
 // Gracias parallax
 $(".parallax-gracias").parallax({
-  imageSrc: "assets/img/portada.jpg",
+  imageSrc: "assets/img/portada.jpeg",
 });
-
-// ----------------------
 
 // Portada
 
