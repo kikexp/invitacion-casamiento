@@ -488,7 +488,7 @@ section.frase h4{
 
 section.cuenta-regresiva{
   text-align: center;
-  padding: 40px 0px 0px 0px;
+  padding: 40px 0px 50px 0;
   height: auto;
   font-size: 18px;
 }
@@ -528,7 +528,7 @@ section.nuestraboda  img.icon{
 /* Ceremonia y Fiesta */
 
 section.ceremonia-fiesta{
-  padding: 10px 0 100px;
+  padding: 10px 0 0;
 }
 
 section.ceremonia-fiesta .columna{
