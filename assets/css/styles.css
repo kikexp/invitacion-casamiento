@@ -604,6 +604,7 @@ section.confirmar-asistencia img.iconLink{
   display: flex;
   position: relative;
   flex-direction: column;
+  padding: 0 30px;
 }
 
 section.confirmar-asistencia  img.icon{
@@ -684,7 +685,7 @@ section.instagram  img.icon{
 
 section.cbu{
   text-align: center;
-  padding: 80px 0;
+  padding: 80px 15px;
   background-color: var(--color-secundario);
 }
 
